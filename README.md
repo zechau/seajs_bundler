@@ -6,6 +6,8 @@ A solution to resolve seajs module bundling. It parses the dependence recursivel
 npm install seajs-bundler
 
 ##usage
+\> cd /path/to/project/  
+\> vim build_config.json  
 \> seajs-bundler  
 
 run above command will output the finally bundled file.
@@ -16,7 +18,7 @@ require("seajs-bundler");
 ```
 
 ##config  
-config file name: build_config.json  
+config file: build_config.json  
 
 config items  
 ```
