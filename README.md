@@ -19,23 +19,30 @@ require("seajs-bundler");
 config file name: build_config.json  
 
 config items  
-```json
+```
 {  
-	"project_dir": "/path/to/your/project",  
+	"project_dir": "/path/to/your/project",
+	
 	//component dir  
-	"comp_dir": "component",  
+	"comp_dir": "component",
+	
 	//dir seajs locates  
 	"seajs_dir": "lib",  
+	
 	//seajs alias config  
-    	"alias": {  
+	"alias": {  
     		"$": "jquery"  
     	},  
+    	
 	//app entrance  
 	"entrance": "index.html",  
+	
 	//entrance module  
-	"seajs_entrance": "main.js",  
+	"seajs_entrance": "main.js", 
+	
 	//dir where bundled file ouputs   
 	"output": "./output",  
+	
 	//whether minify  
 	"minify": true  
 }
