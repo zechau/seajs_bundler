@@ -1,0 +1,24 @@
+{
+  "name": "seajs-bundler",
+  "version": "1.0.0",
+  "description": "bundle modules for seajs",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "bin": "bin/cli.js",
+  "author": "Wisdom Hwang",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js2": "^2.1.11"
+  },
+  "repository" :{ 
+    "type" : "git", 
+    "url" : "https://github.com/zechau/seajs_bundler.git"
+  },
+  "bugs":{
+    "url": "https://github.com/zechau/seajs_bundler/issues",
+    "email": "zechau.h@gmail.com"
+  },
+  "keywords": ["seajs-bundler", "seajs", "bundler"]
+}

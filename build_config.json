@@ -1,0 +1,12 @@
+{
+	"alias": {
+		"$": "jquery"
+	},
+	"project_dir": "F:/test/wdpat/src",
+	"comp_dir": "js",
+	"seajs_dir": "js/libs",
+	"entrance": "wx_tp.htm",
+	"seajs_entrance": "mmrp_wx.operate.js",
+	"output": "./output",
+	"minify": false
+}
