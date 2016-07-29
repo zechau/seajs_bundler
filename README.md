@@ -11,12 +11,15 @@ npm install seajs-bundler
 run above command will output the finally bundled file.
 
 or  
-require(seajs-bundler);
+```javascript
+require("seajs-bundler");
+```
 
 ##config  
 config file name: build_config.json  
 
 config items  
+```json
 {  
 	"project_dir": "/path/to/your/project",  
 	//component dir  
@@ -36,3 +39,4 @@ config items
 	//whether minify  
 	"minify": true  
 }
+```
