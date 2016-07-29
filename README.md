@@ -35,9 +35,6 @@ config items
 	"alias": {  
     		"$": "jquery"  
     	},  
-    	
-	//app entrance  
-	"entrance": "index.html",  
 	
 	//entrance module  
 	"seajs_entrance": "main.js", 
