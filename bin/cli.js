@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var start, end;
 console.log('bundling js...');
 start = (new Date).getTime();
