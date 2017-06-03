@@ -1,5 +1,5 @@
 # SeaJS Bundler
-A solution to resolve seajs module bundling. It parses the dependence recursively from the entrance module, then bundles all modules together in rgith loading order.
+A solution to resolve seajs module bundling. It parses the dependence recursively from the entrance module, then bundles all modules together in right loading order.
 
 
 ## installation
